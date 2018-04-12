@@ -1,9 +1,0 @@
-- hosts: localhost 
-  convertirse en: 
-  tareas verdaderas : 
-  - nombre: instalar paquetes 
-    apt: name = {{item}} 
-    with_items: 
-      - htop 
-      - mc 
-      - tmux
